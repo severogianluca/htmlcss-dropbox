@@ -196,13 +196,14 @@ h2{
     display: flex;
     gap: 50px;
     flex-wrap: wrap;
-    border: 1px solid black;
-    justify-content: center;
+    justify-content: flex-start;
+
+    
 }
 .tabella div {
     width: calc(100% / 3 - 50px); 
     text-align: center;
-    padding: 10px;
+    padding-top: 10px ;
     border: 1px solid #d0cfd4;
     height: 950px;
     width: 300px;
@@ -228,7 +229,10 @@ margin-bottom: 15px;
 margin-left: 15px;
 display: flex;
 gap: 10px;
+}
 
+.orizzontale{
+    width: 100px;
 }
 
 .arrow-blu{
@@ -238,4 +242,42 @@ gap: 10px;
 hr {
     width: 25%;
     margin-left: 15px
-  }
+}
+
+#barra {
+    width: 100%;
+    margin: 0; 
+    border: none; 
+    height: 0.5px; 
+    background-color: #d0cfd4; /* Colore simile alla tabella */
+    margin-top: 15px;
+}
+
+.orizzontale {
+    width: calc(100% - 100px); /* Occupa tutta la larghezza */
+    text-align: center;
+    flex-direction: row; /* Allinea il contenuto in orizzontale */
+    align-items: center;
+    justify-content: space-between;
+    border: 0.5px solid #d0cfd4;
+    padding-top: 20px;
+    margin-top: 50px; 
+}
+
+
+.orizzontale p{
+    width: 60%;
+}
+
+.btn-dx{
+    display: flex;
+    justify-content: space-between;
+}
+
+ .btndx{
+    margin-right: 30px;
+}
+
+
+
+
