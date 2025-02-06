@@ -26,6 +26,8 @@ h2{
 }
 
 
+
+
 /* STILE HEADER */
 #banner {
     display: flex;
@@ -54,20 +56,20 @@ h2{
 }
 
 
-ul {
+#banner ul {
     align-items: center;
     list-style: none;
     display: flex;
     gap: 20px;
 }
 
-a {
+#banner a {
     text-decoration: none;
     color: black;
   
 }
 
-a:hover {
+#banner a:hover {
     color: blue;
 }
 
@@ -128,7 +130,6 @@ a:hover {
     color: white;
     border: none;
     padding: 10px 15px; 
-    font-weight: bold;
     cursor: pointer;
     margin-bottom: 35px;
     margin-top: 35px;
@@ -156,6 +157,7 @@ a:hover {
     align-items: center; 
     margin-top: 70px;
     gap: 10px; 
+    margin-bottom: 50px;
 }
 
 
@@ -183,3 +185,53 @@ a:hover {
 .first{
     margin-right: 50px;
 }
+
+/* STILE PER LE TABELLE */
+
+.tabella{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    justify-content: center;
+}
+.tabella div {
+    width: calc(100% / 3 - 50px); 
+    text-align: center;
+    padding: 10px;
+    border: 1px solid blue;
+    height: 950px;
+    width: 300px;
+}
+
+.listino-prezzi p{
+    text-align: left;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.listino-prezzi h3{
+    text-align: left;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-top: 40px;
+}
+
+.listino-prezzi ul li{
+list-style: none;
+text-align: left;
+margin-bottom: 30px;
+margin-left: 15px;
+display: flex;
+gap: 10px;
+
+}
+
+.arrow-blu{
+    color: #0061fe;
+}
+
+hr {
+    width: 25%;
+    margin-left: 15px
+  }
