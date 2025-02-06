@@ -1,3 +1,5 @@
+/* STILE IN COMUNE */
+
 * {
     margin: 0;
     padding: 0;
@@ -5,31 +7,33 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+}
+
+img{
+    width: 100%;
+    display: block;
 }
 
 /* STILE HEADER */
 #banner {
+    display: flex;
     background-color: white;
-    height: 80px;
     position: sticky;
     top: 0px;
-    padding: 0 20px;
+    padding: 20px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-/* Menu principale */
-.menu {
-    display: flex;
     justify-content: space-between;
     height: 80px;
 }
+
 
 /* Sezione sinistra (Logo + menu) */
 .menu-left {
     display: flex;
     align-items: center;
-    gap: 30px;
+    
 }
 
 /* Sezione destra (Supporto, Contatti, Accedi, Pulsante Inizia) */
@@ -41,6 +45,7 @@ body {
 
 
 ul {
+    align-items: center;
     list-style: none;
     display: flex;
     gap: 20px;
@@ -49,7 +54,7 @@ ul {
 a {
     text-decoration: none;
     color: black;
-    font-weight: bold;
+  
 }
 
 a:hover {
@@ -58,17 +63,15 @@ a:hover {
 
 /* Pulsante blu "Inizia" */
 .blue-button {
-    background-color: blue;
+    background-color: #0061fe;
     color: white;
     border: none;
     padding: 10px 15px;
-    border-radius: 5px;
     font-weight: bold;
-    cursor: pointer;
 }
 
 .blue-button:hover {
-    background-color: darkblue;
+    filter: brightness(1.4);
 }
 
 h1{
@@ -76,34 +79,69 @@ h1{
     font-size: 4em;
 }
 
-.presentazione{
+
+/* STILE PER L'HEADER PT2 */
+#jumbo{
     background-color: #b4d0e6;
-    height: 735px;
-    padding: 100px;
-    
-    
+    margin-bottom: 150px;
 }
 
-.container-header{
-    width: calc(100% - 30%);
+.container{
+    width: 1190px;
     margin: 0 auto;
 
 }
 
-
-.contenuto{
-    width: calc(100% - 10%);
+#jumbo .info{
     display: flex;
-    padding-top: 75px;
-
 }
 
-.info-dropbox{
-    width: calc(100% - 10%);
+#jumbo .colonna-sx{
+    position: relative;
+    width: 30%;
+}
 
+#jumbo .colonna-dx{
+    width: 70%;
 }
 
 .jumbo img{
-    max-width: 780px;
-    height: 460px;
+    width: 100%;
+    display: block;
+}
+
+#jumbo .container{
+    position: relative;
+    top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.prova{
+    background-color: #0061fe;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.prova:hover {
+    filter: brightness(1.4);
+}
+
+.freccia-grande{
+    position: absolute;
+    top: 330px;
+    font-size: 4em;
 }
