@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* STILE HEADER */
+#banner {
+    background-color: white;
+    height: 80px;
+    position: sticky;
+    top: 0px;
+    padding: 0 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Menu principale */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+
+/* Sezione sinistra (Logo + menu) */
+.menu-left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Sezione destra (Supporto, Contatti, Accedi, Pulsante Inizia) */
+.menu-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a:hover {
+    color: blue;
+}
+
+/* Pulsante blu "Inizia" */
+.blue-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.blue-button:hover {
+    background-color: darkblue;
+}
+
+h1{
+    
+    font-size: 4em;
+}
+
+.presentazione{
+    background-color: #b4d0e6;
+    height: 735px;
+    padding: 100px;
+    
+    
+}
+
+.container-header{
+    width: calc(100% - 30%);
+    margin: 0 auto;
+
+}
+
+
+.contenuto{
+    width: calc(100% - 10%);
+    display: flex;
+    padding-top: 75px;
+
+}
+
+.info-dropbox{
+    width: calc(100% - 10%);
+
+}
+
+.jumbo img{
+    max-width: 780px;
+    height: 460px;
+}
