@@ -133,7 +133,11 @@ h2{
     cursor: pointer;
     margin-bottom: 35px;
     margin-top: 35px;
+}
 
+.contact{
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
 .btn-prova:hover {
@@ -199,7 +203,7 @@ h2{
     width: calc(100% / 3 - 50px); 
     text-align: center;
     padding: 10px;
-    border: 1px solid blue;
+    border: 1px solid #d0cfd4;
     height: 950px;
     width: 300px;
 }
@@ -220,7 +224,7 @@ h2{
 .listino-prezzi ul li{
 list-style: none;
 text-align: left;
-margin-bottom: 30px;
+margin-bottom: 15px;
 margin-left: 15px;
 display: flex;
 gap: 10px;
