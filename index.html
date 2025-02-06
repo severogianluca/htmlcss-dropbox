@@ -5,22 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dropbox</title>
 
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+
+    <!-- LINK PER LE ICONE -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!-- LINK PER IL MIO CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
     <header>
-        <div id="banner">
-            <div class="menu">
+        <div id="banner">        
                 <!-- Sinistra: Logo e Menu -->
-                <div class="menu-left">
-                    <img src="img/logo-small.png" alt="logo DropBox">
+                <div class="menu-left">       
                     <ul>
+                        <li><img src="img/logo-small.png" alt="logo DropBox"></li>
                         <li><a href="#">Perchè DropBox</a></li>
                         <li><a href="#">Funzioni</a></li>
                         <li><a href="#">Piani e Prezzi</a></li>
@@ -35,34 +42,38 @@
                         <li><a href="#">Accedi</a></li>
                     </ul>
                     <button class="blue-button">Inizia</button>
-                </div>
-            </div>
+                </div>  
         </div>
-        
-        <div class="presentazione">
-            <div class="container-header">
+  
+    </header>
+
+    <main>
+        <section id="jumbo">
+            <div class="container">
                 <h1>
                     Tutto ciò che ti server per il lavoro, in un unico posto
                 </h1>
-                <div class="contenuto">
-                    <div class="info-dropbox">
+                <div class="info">
+                    <div class="colonna-sx">
                         <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori
                         sono accessibili dallo stesso posto. Dropbox Business è piu di
                         uno spazio di archiviazione sicuro: è un modo inteliggente e integrato
                         per ottimizzare il flusso di lavoro esistente.
                          </p>
+                         <button class="prova">Inizia la tua prova gratuita</button>
+                         <div class="freccia-grande"><i class="fa-solid fa-arrow-down"></i></div>
+                         <p>Annulla in qualsiasi momento</p>
                     </div>
-                    <div class="jumbo">
-                        <img src="img/jumbo.png" alt="jumbo">
+                    <div class="colonna-dx">
+                        <img src="img/jumbo.png" alt="jumbo dropbox">
+                    </div>
+
+                    <div>
+                     
                     </div>
                 </div>
             </div>
-        </div>
-
-    </header>
-
-    <main>
-
+        </section>
     </main>
 
     <footer>
